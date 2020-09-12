@@ -1,0 +1,106 @@
+{
+    "dbSettings": {
+        "dbName": "braingameDB",
+        "usersdataTblName": "usersdata",
+        "attemptsTblName": "attempts"
+    },
+    "gametitle": "BrainGame",    
+    "gamelogo": {
+        "path": "images/BrainGame.gif",
+        "mime": "image/gif",
+        "copyright": {
+            "license": "U"
+        },
+        "width": 1709,
+        "height": 907
+    },
+    "gamequiz": {
+        "params": {
+            "choices": [{
+                "subContentId": "7e0958d1-8b88-44b5-89c8-810978eace4b",
+                "question": "<p>1 True?</p>\n",
+                "answers": ["<p>True</p>\n", "<p>False</p>\n"]
+            }, {
+                "subContentId": "0da6ac6f-ece8-4538-bf82-c5ae053c71be",
+                "question": "<p>2 True?</p>\n",
+                "answers": ["<p>True</p>\n", "<p>False</p>\n"]
+            }, {
+                "subContentId": "a47ec3e7-e30a-4d7b-8469-6790890572f8",
+                "question": "<p>3 False?</p>\n",
+                "answers": ["<p>False</p>\n", "<p>True</p>\n"]
+            }, {
+                "subContentId": "54b15d25-edad-43f8-8a0c-72b762e53eef",
+                "question": "<p>4 False?</p>\n",
+                "answers": ["<p>False</p>\n", "<p>True</p>\n"]
+            }, {
+                "subContentId": "289315a2-a730-4f9d-9545-6fadff4e4d1e",
+                "question": "<p>5 True?</p>\n",
+                "answers": ["<p>True</p>\n", "<p>False</p>\n"]
+            }, {
+                "subContentId": "3bc37ed1-f526-43a0-a13c-2f2fd31c2ca4",
+                "question": "<p>6 True?</p>\n",
+                "answers": ["<p>True</p>\n", "<p>False</p>\n"]
+            }, {
+                "subContentId": "3a3de547-bf6b-4dfa-92f3-95d83cf3cc5c",
+                "question": "<p>7 False?</p>\n",
+                "answers": ["<p>False</p>\n", "<p>True</p>\n"]
+            }, {
+                "subContentId": "3926fc74-4f22-4575-89ec-eef1fc97faff",
+                "question": "<p>8 False?</p>\n",
+                "answers": ["<p>False</p>\n", "<p>True</p>\n"]
+            }, {
+                "subContentId": "7846f321-c184-409c-9e38-6c25809d68ea",
+                "question": "<p>9 True?</p>\n",
+                "answers": ["<p>True</p>\n", "<p>False</p>\n", "<p>False</p>\n"]
+            }, {
+                "subContentId": "16efad59-2bf0-42fb-84e0-56fd3bf628cb",
+                "question": "<p>10 False?</p>\n",
+                "answers": ["<p>False</p>\n", "<p>True</p>\n", "<p>True</p>\n"]
+            }],
+            "overallFeedback": [{
+                "from": 0,
+                "to": 49,
+                "feedback": "Σοβαρέψου και ξαναπροσπάθησε! Ούτε τα μισά δεν έπιασες."
+            }, {
+                "from": 50,
+                "to": 59,
+                "feedback": "Εντάξει, αλλά ούτε ένα αστέρι; Μήπως να το ξαναπροσπαθούσες;"
+            }, {
+                "from": 60,
+                "to": 74,
+                "feedback": "Καλά, αλλά μόνο ένα αστέρι; Μπορείς και καλύτερα. Θες να ξαναπροσπαθήσεις;"
+            }, {
+                "from": 75,
+                "to": 89,
+                "feedback": "Πολύ καλή προσπάθεια! Αξίζει δύο αστέρια. Αν ξαναπροσπαθήσεις, μπορεί να πάρεις τρία."
+            }, {
+                "from": 90,
+                "to": 100,
+                "feedback": "Άριστη προσπάθεια! Σου αξίζουν τρία γυαλιστερά αστέρια! Τώρα."
+            }],
+            "behaviour": {
+                "autoContinue": true,
+                "timeoutCorrect": 50,
+                "timeoutWrong": 1000,
+                "soundEffectsEnabled": true,
+                "enableRetry": false,
+                "enableSolutionsButton": false,
+                "passPercentage": 50
+            },
+            "l10n": {
+                "nextButtonLabel": "Επόμενη ερώτηση",
+                "showSolutionButtonLabel": "Δείξε τις Λύσεις",
+                "retryButtonLabel": "Ξαναπροσπάθησε",
+                "solutionViewTitle": "Λύση",
+                "correctText": "Σωστά!",
+                "incorrectText": "Λάθος!",
+                "muteButtonLabel": "Σίγαση ήχων ανατροφοδότησης",
+                "closeButtonLabel": "Κλείσιμο",
+                "slideOfTotal": "Διαφάνεια :num από :total",
+                "scoreBarLabel": "Πέτυχες :num από :total βαθμούς"
+            }
+        },
+        "library": "H5P.SingleChoiceSet 1.10",
+        "subContentId": "1fd54fda-d815-46e2-a436-f6d0020bebd1"
+    }
+}

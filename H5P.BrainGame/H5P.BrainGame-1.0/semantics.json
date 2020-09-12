@@ -1,0 +1,237 @@
+[
+{
+  "name": "dbSettings",
+  "type": "group",
+  "label": "Database Settings",
+  "importance": "high",
+  "expanded": false,
+  "fields": [
+    {
+      "label": "Database Name",
+      "name": "dbName",
+      "type": "text",
+      "default": "braingameDB",
+      "description": "The name of the games MySQL database. Latin characters normal letters ONLY!"
+    },
+    {
+      "label": "Users data Table Name",
+      "name": "usersdataTblName",
+      "type": "text",
+      "default": "usersdata",
+      "description": "The name of the users' data database table. Latin characters normal letters ONLY!"
+    },
+    {
+      "label": "Attempts data Table Name",
+      "name": "attemptsTblName",
+      "type": "text",
+      "default": "attempts",
+      "description": "The name of the attempts' data database table. Latin characters normal letters ONLY!"
+    }
+  ]
+},
+  {
+    "label": "Game title",
+    "name": "gametitle",
+    "type": "text",
+    "default": "BrainGame",
+    "description": "The name of the game shown to the end user."
+  },
+  {
+    "label": "Game logo",
+    "name": "gamelogo",
+    "type": "image",
+    "optional": true,
+    "description": "Image shown as game logo, optional. Without this the game will show just the title."
+  },
+  {
+    "name": "gamequiz",
+    "type": "library",
+    "label": "Quiz type",
+    "description": "The content type used as the game quiz.",
+    "options": [
+      "H5P.SingleChoiceSet 1.10"
+    ]
+  },
+  {
+  "name": "gameSettings",
+  "type": "group",
+  "label": "Game Settings",
+  "importance": "high",
+  "expanded": false,
+  "fields": [
+    {
+      "label": "Correct answer points",
+      "name": "correctPoints",
+      "type": "number",
+      "default": 1000,
+      "description": "Points awarded for each correct answer."
+    },
+    {
+      "label": "Correct answer bonus",
+      "name": "correctBonus",
+      "type": "number",
+      "default": 100,
+      "description": "Bonus for each correct answer on level up"
+    },
+    {
+      "label": "Duration for bonus points",
+      "name": "bonusDuration",
+      "type": "number",
+      "default": 150,
+      "description": "Completion in this duration (seconds) bears bonus points."
+    },
+    {
+      "label": "Maximum bonus",
+      "name": "maxBonus",
+      "type": "number",
+      "default": 2000,
+      "description": "Maximum attainable bonus points"
+    },
+    {
+      "label": "Duration decrease",
+      "name": "decreaseDuration",
+      "type": "number",
+      "default": 5,
+      "description": "Decrease of bonus duration (seconds) on level up"
+    }
+  ]
+},
+  {
+  "name": "gameLabels",
+  "type": "group",
+  "label": "Game Labels",
+  "importance": "high",
+  "expanded": false,
+  "fields": [
+    {
+      "label": "Logged in as",
+      "name": "loggedInAs",
+      "type": "text",
+      "default": "Logged in as",
+      "description": "Logged in label."
+    },
+    {
+      "label": "Best Score",
+      "name": "bestScore",
+      "type": "text",
+      "default": "Best Score",
+      "description": "Best Score label."
+    },
+    {
+      "label": "Current Score",
+      "name": "currentScore",
+      "type": "text",
+      "default": "Current Score",
+      "description": "Current Score label."
+    },
+    {
+      "label": "Level",
+      "name": "level",
+      "type": "text",
+      "default": "Level",
+      "description": "Level label."
+    },
+    {
+      "label": "Timer",
+      "name": "timer",
+      "type": "text",
+      "default": "Timer",
+      "description": "Timer label."
+    },
+    {
+      "label": "Score Board",
+      "name": "scoreBoard",
+      "type": "text",
+      "default": "Score Board",
+      "description": "Score Board label."
+    },
+    {
+      "label": "Rank",
+      "name": "rank",
+      "type": "text",
+      "default": "Rank",
+      "description": "Rank label."
+    },
+    {
+      "label": "Player",
+      "name": "player",
+      "type": "text",
+      "default": "Player",
+      "description": "Player label."
+    },
+    {
+      "label": "Score",
+      "name": "score",
+      "type": "text",
+      "default": "Score",
+      "description": "Score label."
+    },
+    {
+      "label": "Award",
+      "name": "award",
+      "type": "text",
+      "default": "Award",
+      "description": "Award label."
+    },
+    {
+      "label": "Enter button",
+      "name": "enterButton",
+      "type": "text",
+      "default": "Enter",
+      "description": "Enter button label."
+    },
+    {
+      "label": "Admin Report button",
+      "name": "reportButton",
+      "type": "text",
+      "default": "Admin Report",
+      "description": "Admin Report button label."
+    },
+    {
+      "label": "Back button",
+      "name": "backButton",
+      "type": "text",
+      "default": "Back",
+      "description": "Back button label."
+    },
+    {
+      "label": "Begin button",
+      "name": "beginButton",
+      "type": "text",
+      "default": "Begin",
+      "description": "Begin button label."
+    },
+    {
+      "label": "User Reports Label",
+      "name": "reportsLabel",
+      "type": "text",
+      "default": "Attempts History for user",
+      "description": "History of attempts for the user."
+    }
+  ]
+},
+{
+  "name": "instructions",
+  "type": "group",
+  "label": "Instruction Settings",
+  "importance": "high",
+  "expanded": false,
+  "fields": [
+    {
+      "label": "Instructions title",
+      "name": "titleInstructions",
+      "type": "text",
+      "default": "Instructions",
+      "description": "Title of the instructions page."
+    },
+    {
+      "label": "Instructions text",
+      "name": "textInstructions",
+      "type": "text",
+      "default": "The instructions text (maximum 500 characters)",
+      "description": "The instructions text (maximum 500 characters).",
+	  "maxLength": 500
+    }
+  ]
+}
+]

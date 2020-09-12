@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve" width="512px" height="512px" class=""><g><script xmlns=""/><style id="stylish-2" class="stylish" type="text/css">/* Created by PanosBabo on 9 March 2012, latest update on 09/February/2015*/
+
+@namespace url(http://www.w3.org/1999/xhtml);</style><style id="stylish-4" class="stylish" type="text/css">/* License: CC0 Public Domain (creativecommons.org/publicdomain/zero/1.0/) */
+/* Version: 2014-09-27 (userstyles.org/styles/64023) */
+/* AGENT_SHEET */
+@namespace url(http://www.w3.org/1999/xhtml);</style><style id="stylish-5" class="stylish" type="text/css">/**
+ * @name Mozilla.org Inverted
+ * @stylish-id 109480
+ * @author Niklas Gollenstede
+ * @licence CC-BY-SA-4.0 or MIT
+ * @description
+ *     Simple dark 'skin' for Mozilla pages.
+ *     Mainly focuses on addond.mozilla.org and developer.mozilla.org, but handles other Mozilla pages as well.
+ *
+ *     If you have any issues with this style, please open a ticket at https://github.com/NiklasGollenstede/stylish
+ */
+
+@namespace url(http://www.w3.org/1999/xhtml);</style><circle style="fill:#00FF49" cx="192" cy="192" r="176" data-original="#4DD0E1" class="" data-old_color="#4DD0E1"/><path style="fill:#FFD800" d="M192,0C86.136,0,0,86.128,0,192s86.136,192,192,192s192-86.128,192-192S297.864,0,192,0z   M208,351.192v-232.56l28.688,28.688c3.128,3.12,7.216,4.68,11.312,4.68s8.184-1.56,11.312-4.688c6.248-6.248,6.248-16.376,0-22.624  L203.32,68.696c-0.744-0.752-1.568-1.416-2.456-2.008c-0.376-0.256-0.792-0.424-1.184-0.648c-0.52-0.288-1.016-0.6-1.568-0.824  c-0.52-0.216-1.064-0.336-1.6-0.496c-0.464-0.136-0.904-0.312-1.384-0.408c-2.064-0.408-4.2-0.408-6.264,0  c-0.48,0.096-0.92,0.272-1.384,0.408c-0.536,0.16-1.08,0.28-1.6,0.496c-0.552,0.224-1.048,0.536-1.568,0.824  c-0.392,0.216-0.808,0.392-1.184,0.648c-0.88,0.592-1.704,1.256-2.456,2.008l-55.992,55.992c-6.248,6.248-6.248,16.376,0,22.624  c6.248,6.248,16.376,6.248,22.624,0L176,118.624v232.56C95.256,343.136,32,274.824,32,192c0-88.224,71.776-160,160-160  s160,71.776,160,160C352,274.824,288.744,343.136,208,351.192z" data-original="#012E52" class="active-path" data-old_color="#FFD100"/></g> </svg>

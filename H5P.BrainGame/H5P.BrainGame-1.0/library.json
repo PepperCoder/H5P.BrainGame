@@ -1,0 +1,29 @@
+{
+  "title": "BrainGame",
+  "description": "A brain game quiz",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 111,
+  "runnable": 1,
+  "fullscreen": 1,
+  "author": "PepperCoder",
+  "license": "MIT",
+  "machineName": "H5P.BrainGame",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 11
+  },
+  "preloadedJs": [
+    {
+      "path": "braingame.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "font-awesome.min.css"
+    },
+    {
+      "path": "braingame.css"
+    }
+  ]
+}
